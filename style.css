@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h5 {
+  font-weight: bold;
+}
+
+header {
+  background: linear-gradient(90deg, #004080, #0073e6);
+}
+
+.curso-hero {
+  background: url("img/cursos-bg.jpg") no-repeat center center/cover;
+  min-height: 300px;
+  padding: 60px 20px;
+}
+
+.video-container {
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  max-height: 500px;   /* ajuste o valor (200px, 250px, 300px) até ficar bom */
+  object-fit: cover;   /* corta o excesso sem distorcer */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5); /* fundo preto semitransparente */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.secao-destaque img {
+  width: 100%;        /* ocupa toda a largura da coluna */
+  height: 200px;      /* altura fixa, ajuste como preferir (200, 250, 300px) */
+  object-fit: cover;  /* corta o excesso e mantém a proporção */
+  border-radius: 8px; /* bordas arredondadas (opcional) */
+}
+
+/*zgestao-financeira*/
+
+header {
+  background: linear-gradient(90deg, #004080, #0073e6);
+}
+
+h2 {
+  color: #004080;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/*zlideranca*/
+
+#carouselLideranca img {
+  height: 300px;     /* altura fixa */
+  width: auto;       /* mantém a proporção */
+  object-fit: cover; /* garante que não distorça */
+}

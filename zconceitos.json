@@ -1,0 +1,158 @@
+[
+  {
+    "titulo": "Caução",
+    "descricao": "Instrumento de garantia de obrigação ou dívida. Bem móvel (dinheiro/imóvel) entregue ao locador, devolvido no fim se não houver dívidas."
+  },
+  {
+    "titulo": "Fiança",
+    "descricao": "Garantia pessoal onde o fiador responde com seu patrimônio. Se o devedor não pagar, o fiador assume."
+  },
+  {
+    "titulo": "Compror",
+    "descricao": "Operações de crédito para financiamento de compras de pessoas jurídicas. O banco paga à vista o fornecedor e a empresa paga depois."
+  },
+  {
+    "titulo": "Floor Plan",
+    "descricao": "Linha de crédito rotativa para aquisição de bens, usada por concessionárias para financiar estoques de veículos."
+  },
+  {
+    "titulo": "Vendor",
+    "descricao": "Financiamento de vendas via cessão de crédito. O banco antecipa ao fornecedor e assume a cobrança do cliente."
+  },
+  {
+    "titulo": "Adiantamento sobre Contratos de Câmbio (ACC)",
+    "descricao": "Antecipação de receitas de exportação antes do embarque. O banco adianta em reais o valor do contrato de câmbio."
+  },
+  {
+    "titulo": "Adiantamento de Cambiais Entregues (ACE)",
+    "descricao": "Financiamento pós-embarque, quando o banco antecipa em reais mediante entrega de documentos da exportação."
+  },
+  {
+    "titulo": "Antecipação de Faturas de Cartão de Crédito",
+    "descricao": "Operações de crédito para adiantamento de recursos às empresas com base em fluxo futuro de faturas de cartão."
+  },
+  {
+    "titulo": "Arrendamento Mercantil (Leasing)",
+    "descricao": "Arrendamento mercantil: aluguel de bem com opção de compra ao final do contrato."
+  },
+  {
+    "titulo": "Crédito Direto ao Consumidor (CDC)",
+    "descricao": "Empréstimo do valor total de um bem, pago em parcelas fixas. Taxas podem ser altas em prazos longos."
+  },
+  {
+    "titulo": "Consórcio",
+    "descricao": "Grupo de pessoas contribui mensalmente para um fundo comum. Sorteios e lances contemplam o direito à compra sem juros."
+  },
+  {
+    "titulo": "Financiamento com Garantia de Imóvel",
+    "descricao": "Usa um imóvel como garantia para reduzir taxas de juros em financiamentos."
+  },
+  {
+    "titulo": "Capital de Giro",
+    "descricao": "Operações de crédito destinadas ao financiamento de curto prazo das empresas, podendo ter prazos de até ou acima de 365 dias."
+  },
+  {
+    "titulo": "Cartão de Crédito",
+    "descricao": "Compras realizadas à vista ou parceladas. Inclui modalidades parcelado, rotativo e saques em dinheiro."
+  },
+  {
+    "titulo": "Cheque Especial",
+    "descricao": "Crédito vinculado a conta corrente com limite pré-aprovado. Amortização automática ao entrar depósito."
+  },
+  {
+    "titulo": "Conta Garantida",
+    "descricao": "Crédito em conta PJ com limite pré-aprovado, exige garantias adicionais, amortização automática."
+  },
+  {
+    "titulo": "Desconto de Cheques",
+    "descricao": "Adiantamento de recursos a empresas vinculados a cheques recebidos e entregues em custódia ao banco."
+  },
+  {
+    "titulo": "Desconto de Duplicatas",
+    "descricao": "Adiantamento de recursos a empresas com base em duplicatas mercantis e outros recebíveis (exceto cheques e faturas de cartão)."
+  },
+  {
+    "titulo": "Instrumentos de Securitização",
+    "descricao": "Transformam recebíveis em títulos negociáveis, como CRI, CRA, FIDC e Debêntures, permitindo captação antecipada de recursos."
+  },
+  {
+    "titulo": "Capital de Giro com recursos do BNDES",
+    "descricao": "Empréstimos de capital de giro e financiamentos a exportações com recursos do BNDES, inclusive via Cartão BNDES."
+  },
+  {
+    "titulo": "Financiamento Agroindustrial com recursos do BNDES",
+    "descricao": "Financiamentos agroindustriais destinados a capital de giro ou investimentos com recursos do BNDES."
+  },
+  {
+    "titulo": "Financiamento de Investimentos com recursos do BNDES",
+    "descricao": "Financiamentos de investimentos de longo prazo com recursos do BNDES."
+  },
+  {
+    "titulo": "CAPM - Capital Asset Pricing Model",
+    "descricao": "Modelo para avaliar retorno esperado de investimento considerando risco sistemático em relação ao mercado."
+  },
+  {
+    "titulo": "CMPC (WACC) - Custo Médio Ponderado de Capital",
+    "descricao": "Calcula o custo médio de capital de uma empresa, ponderando capital próprio e de terceiros."
+  },
+  {
+    "titulo": "Taxa Prime",
+    "descricao": "Taxa de juros preferencial oferecida por bancos a clientes importantes, como grandes investidores e empresários."
+  },
+  {
+    "titulo": "Taxa Spread",
+    "descricao": "Diferença entre a taxa de juros cobrada em empréstimos e a taxa paga em depósitos. Representa a margem de lucro do banco."
+  },
+  {
+    "titulo": "Taxa Selic",
+    "descricao": "Taxa básica da economia. Inclui SELIC Meta (Copom), SELIC Over (média interbancária) e Sistema Selic (custódia de títulos)."
+  },
+  {
+    "titulo": "Banco Múltiplo",
+    "descricao": "Instituições financeiras com diversas carteiras: comercial, investimento, desenvolvimento, crédito imobiliário, leasing e financiamento."
+  },
+  {
+    "titulo": "Underwrite",
+    "descricao": "Instituições financeiras organizam e distribuem ações ou títulos no mercado primário para captação de recursos."
+  },
+  {
+    "titulo": "Renda Fixa",
+    "descricao": "Títulos prefixados ou pós-fixados que pagam rendimentos em intervalos ou no vencimento."
+  },
+  {
+    "titulo": "Título com Cupom",
+    "descricao": "Títulos que pagam juros periódicos em intervalos regulares até o vencimento."
+  },
+  {
+    "titulo": "Título sem Cupom",
+    "descricao": "Títulos zero-cupom: não pagam juros periódicos, rendimento é obtido no resgate pelo valor final."
+  },
+  {
+    "titulo": "Redesconto do Banco Central",
+    "descricao": "Empréstimo do Banco Central a bancos com falta de liquidez, mediante títulos ou créditos como garantia."
+  },
+  {
+    "titulo": "Recolhimentos Compulsórios",
+    "descricao": "Depósitos obrigatórios dos bancos no Banco Central, em espécie ou títulos, podendo ser remunerados ou não."
+  },
+  {
+    "titulo": "Reservas Bancárias",
+    "descricao": "Reservas livres e compulsórias mantidas pelos bancos no Banco Central."
+  },
+  {
+    "titulo": "PECLD",
+    "descricao": "Perdas Estimadas em Créditos de Liquidação Duvidosa. Representa provisão para inadimplência provável."
+  },
+  {
+    "titulo": "Descontos Incondicionais",
+    "descricao": "Descontos concedidos no ato da compra/venda, independentes de evento futuro. Reduzem diretamente a receita."
+  },
+  {
+    "titulo": "Descontos Condicionais",
+    "descricao": "Descontos concedidos após a venda, geralmente por pagamento antecipado. Tratados como receita/despesa financeira."
+  },
+  {
+    "titulo": "Encargos/Juros a Transcorrer",
+    "descricao": "Juros embutidos em operações pré-fixadas, reconhecidos como passivo dedutor até o vencimento."
+  }
+]
