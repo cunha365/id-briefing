@@ -1,6 +1,23 @@
+/*body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}*/
+
+
 body {
   font-family: Arial, sans-serif;
+  color: #eaeaea;             /* texto quase branco */
+  background-color: #0d1b2a;  /* azul petróleo escuro */
 }
+/**/
+
+/*
+body {
+  font-family: Arial, sans-serif;
+  color: #eaeaea;             /* texto quase branco */
+  background-color: #0d1b2a;  /* azul petróleo escuro */
+}
+*/
 
 h1, h2, h5 {
   font-weight: bold;
