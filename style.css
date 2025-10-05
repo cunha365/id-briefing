@@ -1,23 +1,10 @@
-/*body {
-  font-family: Arial, sans-serif;
-  color: #333;
-}
-*/
-
 
 body {
   font-family: Arial, sans-serif;
-  color: #eaeaea;             /* texto quase branco */
-  background-color: #0d1b2a;  /* azul petróleo escuro */
+  color: #2c3e50;             /* azul petróleo para texto */
+  background-color: #f4f4f4;  /* cinza muito claro para fundo */
 }
-/**/
 
-/*
-body {
-  font-family: Arial, sans-serif;
-  color: #f0f0f0;             /* texto claro para contraste */
-  background-color: #1c1c1c;  /* fundo escuro grafite */
-}*/
 
 h1, h2, h5 {
   font-weight: bold;
@@ -25,12 +12,45 @@ h1, h2, h5 {
 
 header {
   background: linear-gradient(90deg, #004080, #0073e6);
+  color: #f0f8ff; /* texto claro para contraste */
+  padding: 5rem 1rem;
+  text-align: center;
 }
 
+header h1,
+header p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* sombra para destacar sobre o gradiente */
+}
+
+/*Carrousel*/
+
+.bg-gradiente-azul {
+  background: linear-gradient(90deg, #004080, #0073e6);
+  padding: 3rem 1rem;
+  color: #f0f8ff;
+}
+
+.bg-gradiente-azul .carousel-inner {
+  padding: 2rem 0;
+}
+
+.bg-gradiente-azul .carousel-item img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* opcional: destaque nas imagens */
+}
+
+
+
+
 .curso-hero {
-  background: url("img/cursos-bg.jpg") no-repeat center center/cover;
-  min-height: 300px;
-  padding: 60px 20px;
+  background: linear-gradient(90deg, #004080, #0073e6);
+  color: #f0f8ff; /* texto claro para contraste */
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.curso-hero h1,
+.curso-hero p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .video-container {
@@ -80,4 +100,60 @@ ul li {
   height: 300px;     /* altura fixa */
   width: auto;       /* mantém a proporção */
   object-fit: cover; /* garante que não distorça */
+}
+
+
+/* Estilo dos cards de publicações */
+.publication-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.publication-card:hover {
+  transform: scale(1.02);
+}
+
+.publication-card img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.publication-content {
+  padding: 20px;
+}
+
+.publication-content h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #6b1d1d; /* tom vinho */
+}
+
+.publication-content p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .publication-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .publication-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .publication-content {
+    padding: 15px;
+  }
 }

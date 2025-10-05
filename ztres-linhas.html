@@ -3,78 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ID Briefing</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="img/logo.jpg" type="image/jpg">
-  <!-- ou, se tiver SVG -->
-  <!-- <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml"> -->
+  <title>ID Briefing - Três Linhas de Defesa</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
-      <!-- Aqui vai o logo -->
       <a class="navbar-brand d-flex align-items-center" href="index.html">
         <img src="img/logo.jpg" alt="ID Briefing" height="40" class="me-2">
         <span>ID Briefing</span>
       </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="quem-somos.html">Quem Somos</a></li>
           <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>-->
+          <li class="nav-item"><a class="nav-link active" href="publicacoes.html">Publicações</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-
   <!-- Cabeçalho -->
   <header class="bg-primary text-white text-center p-5">
-    <h1>Três Linhas de Defesa</h1>
-    <p>Modelo de governança para gerenciamento de riscos e controles internos.</p>
+      <!-- Banner de destaque -->
+    <section class="container my-5 text-center">
+      <img src="img/defesa.png" alt="Modelo das Três Linhas de Defesa"
+          class="img-fluid rounded shadow-sm mb-4" style="max-height: 300px;">
+      <h1><i class="bi bi-building"></i> Modelo das Três Linhas de Defesa</h1>
+      <p class="lead">
+        Estrutura de Governança, Riscos e Controles.
+      </p>
+    </section>
   </header>
 
   <!-- Conteúdo -->
   <section class="container my-5">
-
-    <h2>O que são as Três Linhas de Defesa?</h2>
+    <h2><i class="bi bi-info-circle"></i> O que são as Três Linhas de Defesa?</h2>
     <p>
-      O modelo das Três Linhas de Defesa estabelece papéis e responsabilidades claros para a
-      gestão de riscos e controles internos. Ele é amplamente adotado em organizações de diversos setores
-      para garantir eficiência, integridade e sustentabilidade.
+      O modelo das Três Linhas de Defesa estabelece papéis e responsabilidades claros para a gestão de riscos,
+      controles internos e governança corporativa. Ele é amplamente adotado em organizações de diversos setores
+      para garantir eficiência, integridade e sustentabilidade. Cada linha tem um papel distinto, mas complementar,
+      na proteção da organização contra riscos e na promoção de boas práticas de gestão.
     </p>
 
-    <h3 class="mt-5">As três linhas</h3>
-    <ol>
-      <li><strong>Primeira linha:</strong> gestores operacionais responsáveis por identificar e gerenciar riscos em seus processos.</li>
-      <li><strong>Segunda linha:</strong> funções de controle (compliance, gestão de riscos, controladoria) que monitoram e dão suporte à primeira linha.</li>
-      <li><strong>Terceira linha:</strong> auditoria interna, independente, que avalia a eficácia das duas primeiras linhas.</li>
-    </ol>
-
-    <h3 class="mt-5">Benefícios do modelo</h3>
+    <h3 class="mt-5"><i class="bi bi-person-badge"></i> 👨‍💼 Alta Administração</h3>
     <ul>
-      <li>Clareza de responsabilidades</li>
-      <li>Melhor gestão de riscos</li>
-      <li>Maior transparência organizacional</li>
-      <li>Fortalecimento da governança</li>
-      <li>Melhoria contínua nos controles internos</li>
+      <li>Responsável por implementar e manter um sistema eficaz de governança e controle.</li>
+      <li>Garante que as três linhas estejam funcionando de forma integrada e eficiente.</li>
     </ul>
 
+    <h3 class="mt-5"><i class="bi bi-1-circle"></i> Primeira Linha de Defesa – Gestão Operacional</h3>
+    <ul>
+      <li><strong>Responsáveis:</strong> Gestores e colaboradores das áreas de negócio.</li>
+      <li><strong>Funções:</strong>
+        <ul>
+          <li>Identificar e gerenciar riscos diretamente nos processos.</li>
+          <li>Executar controles internos operacionais.</li>
+          <li>Cumprir políticas, normas e procedimentos estabelecidos.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 class="mt-5"><i class="bi bi-2-circle"></i> Segunda Linha de Defesa – Funções de Supervisão</h3>
+    <ul>
+      <li><strong>Responsáveis:</strong> Áreas como Compliance, Gestão de Riscos e Controles Internos.</li>
+      <li><strong>Funções:</strong>
+        <ul>
+          <li>Monitorar e orientar a primeira linha.</li>
+          <li>Desenvolver políticas, metodologias e ferramentas de controle.</li>
+          <li>Promover conformidade e cultura de integridade.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 class="mt-5"><i class="bi bi-3-circle"></i> Terceira Linha de Defesa – Auditoria Interna</h3>
+    <ul>
+      <li><strong>Responsável:</strong> Unidade de Auditoria Interna, independente das demais áreas.</li>
+      <li><strong>Funções:</strong>
+        <ul>
+          <li>Avaliar objetivamente a eficácia das duas primeiras linhas.</li>
+          <li>Verificar a adequação dos controles e da gestão de riscos.</li>
+          <li>Reportar diretamente ao Conselho de Administração e Comitê de Auditoria.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 class="mt-5"><i class="bi bi-bank"></i> Órgãos de Governança</h3>
+    <ul>
+      <li>Conselho de Administração e Comitês (ex.: Comitê de Auditoria):
+        <ul>
+          <li>Supervisionam e asseguram a integridade do sistema de defesa.</li>
+          <li>Tomam decisões estratégicas com base nos relatórios da Auditoria Interna.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 class="mt-5"><i class="bi bi-buildings"></i> Entidades Externas</h3>
+    <ul>
+      <li><strong>Reguladores:</strong> Fiscalizam o cumprimento das normas legais e regulatórias.</li>
+      <li><strong>Auditoria Externa:</strong> Avalia as demonstrações financeiras e a conformidade contábil.</li>
+    </ul>
+
+    <h3 class="mt-5"><i class="bi bi-check-circle"></i> Benefícios do Modelo</h3>
+    <ul>
+      <li>Clareza de papéis e responsabilidades, evitando sobreposição ou lacunas.</li>
+      <li>Fortalecimento da cultura de controle e integridade em todos os níveis da organização.</li>
+      <li>Melhoria na gestão de riscos, com monitoramento contínuo e avaliações independentes.</li>
+      <li>Maior transparência e confiança junto a investidores, reguladores e stakeholders.</li>
+      <li>Eficiência operacional, ao integrar controles e supervisão com os objetivos estratégicos.</li>
+    </ul>
   </section>
 
   <!-- Rodapé -->
@@ -85,13 +131,13 @@
       O conteúdo fornecido é impessoal e não se adapta a parceiros, clientes ou empresas específicas. 
       Recomenda-se que procure aconselhamento profissional antes de tomar decisões. 
       Os resultados não são garantidos e podem variar de pessoa para pessoa e de empresa para empresa. 
-      Existem riscos inerentes em decisões empresariais e pessoais, incluindo perda de investimentos. 
       O desempenho passado não é indicativo de resultados futuros.
     </small>
    <p>&copy; 2025 ID Briefing. Todos os direitos reservados.</p>
-   </footer>
+  </footer>
 
-
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

@@ -34,50 +34,55 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="quem-somos.html">Quem Somos</a></li>
-          <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>-->
+          <li class="nav-item">
+            <a class="nav-link quem-somos-link" href="quem-somos.html">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cursos-link" href="cursos.html">Cursos</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-<!-- Carrossel -->
-<div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel">
-  <!-- Indicadores (pontos) -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
+<header class="bg-gradiente-azul text-center">
+  <div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel">
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
 
-  <!-- Imagens -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/logo.jpg" class="d-block w-50 mx-auto" alt="Slide 1">
+    <!-- Imagens -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/logo.jpg" class="d-block w-50 mx-auto" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/cursos.jpg" class="d-block w-50 mx-auto" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/treinamentos.jpg" class="d-block w-50 mx-auto" alt="Slide 3">
+      </div>
+      <div class="carousel-item">
+        <img src="img/artigos.jpg" class="d-block w-50 mx-auto" alt="Slide 4">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/cursos.jpg" class="d-block w-50 mx-auto" alt="Slide 2">
-    </div>
-    <div class="carousel-item">
-      <img src="img/treinamentos.jpg" class="d-block w-50 mx-auto" alt="Slide 3">
-    </div>
-    <div class="carousel-item">
-      <img src="img/artigos.jpg" class="d-block w-50 mx-auto" alt="Slide 4">
-    </div>
-  </div>
 
-  <!-- Controles (setas) -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Próximo</span>
-  </button>
-</div>
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</header>
+
 
   <!-- Texto de apresentação -->
   <section class="container text-center my-5">
@@ -95,7 +100,7 @@
     <div class="col-md-6 col-lg-4 text-center">
       <a href="zgestao-financeira.html" class="text-decoration-none text-dark">
         <img src="img/gestao.jpeg" alt="Gestão Financeira" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Gestão Financeira e Criação de Valor</h5>
+        <h5 style="color: #004080;">Gestão Financeira e Criação de Valor</h5>
       </a>
       <p>A arte da gestão empresarial</p>
     </div>
@@ -103,7 +108,7 @@
     <div class="col-md-6 col-lg-4 text-center">
       <a href="zlideranca.html" class="text-decoration-none text-dark">
         <img src="img/lideranca.jpg" alt="Liderança Servidora" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Liderança Servidora</h5>
+        <h5 style="color: #004080;">Liderança Servidora</h5>
       </a>
       <p>A liderança servidora pode transformar a sua vida e a de seus liderados.</p>
     </div>
@@ -111,7 +116,7 @@
     <div class="col-md-6 col-lg-4 text-center">
       <a href="zconceitos.html" class="text-decoration-none text-dark">
         <img src="img/conceitos.jpg" alt="Conceitos Financeiros" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Conceitos Financeiros</h5>
+        <h5 style="color: #004080;">Conceitos Financeiros</h5>
       </a>
       <p>Abordamos conceitos que você deve conhecer como empreendedor e gestor.</p>
     </div>
@@ -119,7 +124,7 @@
     <div class="col-md-6 col-lg-4 text-center">
       <a href="zcomunicacao.html" class="text-decoration-none text-dark">
         <img src="img/comunicacao.jpg" alt="Comunicação" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Comunicação</h5>
+        <h5 style="color: #004080;">Comunicação</h5>
       </a>
       <p>A comunicação é eficaz quando o receptor entende a mensagem corretamente.</p>
     </div>
@@ -127,15 +132,15 @@
     <div class="col-md-6 col-lg-4 text-center">
       <a href="zcompliance.html" class="text-decoration-none text-dark">
         <img src="img/compliance.jpg" alt="Compliance" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Dez pilares do compliance</h5>
+        <h5 style="color: #004080;">Dez pilares do compliance</h5>
       </a>
       <p>Assegura a integridade de uma instituição e de seus colaboradores.</p>
     </div>
 
     <div class="col-md-6 col-lg-4 text-center">
       <a href="ztres-linhas.html" class="text-decoration-none text-dark">
-        <img src="img/defesa.jpg" alt="Três Linhas de Defesa" class="img-fluid rounded mb-2">
-        <h5 class="text-white">Três linhas de defesa</h5>
+        <img src="img/defesa.png" alt="Três Linhas de Defesa" class="img-fluid rounded mb-2">
+        <h5 style="color: #004080;">Três linhas de defesa</h5>
       </a>
       <p>Gerenciamento de risco e controle por meio de papéis e responsabilidades claros.</p>
     </div>
@@ -164,7 +169,7 @@
     <!-- Overlay fosco -->
     <div style="background-color: rgba(0, 0, 0, 0.5); padding: 40px; border-radius: 10px;">
       <h4>Visite nossas publicações</h4>
-      <a href="zpublicacoes.html" class="btn btn-primary mb-3">Clique aqui</a>
+      <a href="publicacoes.html" class="btn btn-primary mb-3">Clique aqui</a>
 
       <h4>Saiba mais sobre nossos cursos gratuitos</h4>
       <a href="cursos.html" class="btn btn-success">Clique aqui</a>
@@ -188,19 +193,19 @@
         <i class="bi bi-youtube me-2"></i> YouTube
       </a>
 
-      <a href="ztermos.html" class="btn btn-outline-secondary">
+      <a href="ztermos.html" target="_blank" class="btn btn-outline-secondary">
         <i class="bi bi-file-earmark-text me-2"></i> Termos de Uso
       </a>
 
-      <a href="zpolitica.html" class="btn btn-outline-secondary">
+      <a href="zpolitica.html" target="_blank" class="btn btn-outline-secondary">
         <i class="bi bi-shield-lock me-2"></i> Política de Privacidade
       </a>
 
-      <a href="https://sites.google.com/view/cunhanotes/" class="btn btn-outline-success">
+      <a href="https://sites.google.com/view/cunhanotes/" target="_blank" class="btn btn-outline-success">
         <i class="bi bi-building-lock me-2"></i> Intranet
       </a>
 
-      <a href="https://sites.google.com/view/afays/" class="btn btn-outline-success">
+      <a href="https://sites.google.com/view/afays/" target="_blank" class="btn btn-outline-success">
         <i class="bi bi-people me-2"></i> Extranet
       </a>
     </div>
@@ -222,5 +227,8 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
