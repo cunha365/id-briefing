@@ -1,0 +1,2409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Briefing</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.jpg" type="image/jpg">
+    <!-- ou, se tiver SVG -->
+    <!-- <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml"> -->
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <!-- Aqui vai o logo -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo.jpg" alt="ID Briefing" height="40" class="me-2">
+          <span>ID Briefing</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <li class="nav-item"><a class="nav-link" href="xcentral.html">Central de Serviços</a></li>
+              <li class="nav-item"><a class="nav-link" href="quem-somos.html">Quem Somos</a></li>
+            <li class="nav-item"><a class="nav-link active" href="publicacoes.html">Publicações</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contato.html">Fale conosco</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner com imagem de fundo -->
+    <header class="curso-hero text-white text-center d-flex align-items-center justify-content-center">
+      <div class="container">
+        <h1 class="mb-3">Nossas Soluções</h1>
+        <p>Consultoria, Finanças, BI, Dados, Educação e Tecnologia — tudo em um só lugar para impulsionar empresas e carreiras.</p>
+      </div>
+    </header>
+
+
+    <!-- SERVICES GRID -->
+    <section class="py-5">
+      <div class="container">
+
+        <div class="row g-4">
+
+          <!-- 1 CONSULTORIA ESTRATÉGICA -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">🏛️</div>
+              <h5>Consultoria Estratégica e Corporativa</h5>
+              <p>Governança, planejamento, orçamento e execução estratégica.</p>
+              <a href="#servicos1" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 2 FINANÇAS E CONTROLADORIA -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">💰</div>
+              <h5>Assessoria em Finanças & Controladoria</h5>
+              <p>Fluxo de caixa, custos, estoque, orçamento e controles.</p>
+              <a href="#servicos2" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 3 ANÁLISE DE CRÉDITO -->
+    <!--
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">📉</div>
+              <h5>Análise de Crédito Empresarial</h5>
+              <p>Modelos de rating, risco, score e capacidade de pagamento.</p>
+              <a href="#servicos3" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+    -->
+          <!-- 4 DIAGNÓSTICO + KPIs -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">📊</div>
+              <h5>Diagnóstico Financeiro + KPIs</h5>
+              <p>Relatório executivo com análise completa e indicadores essenciais.</p>
+              <a href="#servicos4" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 5 DASHBOARD EXECUTIVO -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">📈</div>
+              <h5>Dashboard Executivo (BI)</h5>
+              <p>Painéis em Power BI, Tableau, Looker e Qlik Sense.</p>
+              <a href="#servicos5" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 6 DASHBOARD AGRO -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">🌾</div>
+              <h5>Dashboard Agro</h5>
+              <p>Indicadores agrícolas e pecuários para decisões no campo.</p>
+              <a href="#servicos6" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 7 PLANILHAS PROFISSIONAIS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">📘</div>
+              <h5>Planilhas Profissionais</h5>
+              <p>Modelos automáticos e sob demanda para empresas.</p>
+              <a href="#servicos7" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 8 AUTOMAÇÕES -->
+    <!--
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">⚙️</div>
+              <h5>Automação (Python + Excel + SQL)</h5>
+              <p>Integrações, scripts, bots e automações reais.</p>
+              <a href="#servicos8" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+    -->
+
+          <!-- 9 MENTORIAS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">🎯</div>
+              <h5>Assessoria Jurídica</h5>
+              <p>Atuação especializada no direito civil e previdenciário.</p>
+              <a href="#servicos9" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 10 EDUCAÇÃO & TREINAMENTOS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">🎓</div>
+              <h5>Educação & Treinamentos</h5>
+              <p>Workshops, cursos, formação técnica e palestras.</p>
+              <a href="#servicos10" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- 11 PALESTRAS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon">🎤</div>
+              <h5>Palestras Motivacionais</h5>
+              <p>Inspiração, propósito, liderança e desenvolvimento humano.</p>
+              <a href="#servicos11" class="btn btn-dark btn-details">Saiba mais</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos1">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 mb-5">
+            <div class="hero-badge mb-3">
+              <span class="dot"></span>
+              Consultoria Estratégica • ID Briefing
+            </div>
+
+            <h1 class="hero-title mb-3">
+              Consultoria Estratégica e Corporativa<br />
+              <span>Governança, crescimento sustentável e visão de longo prazo.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Se a sua empresa precisa reestruturar governança, fortalecer controles e buscar um
+              crescimento sustentável — incluindo futura captação de recursos — conte conosco.
+              Atuamos lado a lado com a gestão na construção de estratégia, orçamento,
+              projetos e resultados consistentes.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mb-2">
+              <a href="contato.html"
+                class="btn btn-warning fw-semibold px-4 py-2" style="border-radius:999px;">
+                Fale conosco sobre seu negócio
+              </a>
+            </div>
+
+            <p style="font-size:0.85rem;color:#cbd5f5;">
+              Foco em: governança, planejamento, orçamento, projetos, finanças corporativas
+              e preparação para atrair capital.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-card">
+              <h6 class="mb-2">Quando faz sentido contratar</h6>
+              <p style="font-size:0.9rem;">
+                • Empresa crescendo sem estrutura clara de processos e controles<br>
+                • Sócios com boa operação, mas pouca visão financeira/estratégica estruturada<br>
+                • Necessidade de organizar a casa antes de buscar crédito ou investidor
+              </p>
+              <div style="font-size:0.8rem;color:#9ca3af;" class="mb-1">Principais eixos trabalhados:</div>
+              <div>
+                <span class="hero-chip">Governança e estrutura decisória</span>
+                <span class="hero-chip">Planejamento estratégico</span>
+                <span class="hero-chip">Orçamento e controles</span>
+                <span class="hero-chip">Gestão de projetos</span>
+                <span class="hero-chip">Indicadores corporativos</span>
+                <span class="hero-chip">Preparação para captação</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE / SERVIÇOS -->
+    <section class="py-5" id="servicos">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre a consultoria</div>
+          <h2 class="section-title">O que fazemos na Consultoria Estratégica e Corporativa</h2>
+          <p class="section-sub">
+            Atuamos como um parceiro estratégico da gestão, ajudando a desenhar, organizar e
+            implementar os pilares que sustentam o crescimento saudável: governança, planejamento,
+            orçamento, projetos e finanças bem estruturadas.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <!-- Planejamento Estratégico -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🧭</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Planejamento Estratégico</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Definição de visão, objetivos, metas, frentes estratégicas e indicadores
+                para dar direção clara ao negócio.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Metas e OKRs</span>
+                <span class="pill"><span class="pill-dot"></span> Mapa estratégico</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Plan -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📑</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Business Plan</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Construção de plano de negócios estruturado, com projeções financeiras, análise
+                de viabilidade e estratégia de crescimento.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Viabilidade econômica</span>
+                <span class="pill"><span class="pill-dot"></span> Projeções</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles Orçamentários -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">💰</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Controles Orçamentários (Real x Orçado)</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Estruturação de orçamento anual/mensal, com acompanhamento sistemático
+                do realizado versus o planejado.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Orçamento por centro de custo</span>
+                <span class="pill"><span class="pill-dot"></span> Revisões periódicas</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avaliação de Investimentos -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📈</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Avaliação de Investimentos</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Estudos de viabilidade de novos projetos, ampliação, aquisições ou investimentos,
+                usando métricas financeiras sólidas.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> VPL, TIR, Payback</span>
+                <span class="pill"><span class="pill-dot"></span> Cenários e riscos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gestão de Projetos -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📂</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Gestão de Projetos</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Estruturação e acompanhamento de projetos estratégicos, com cronogramas, responsáveis,
+                entregas e indicadores de sucesso.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> PM básico</span>
+                <span class="pill"><span class="pill-dot"></span> Painel de andamento</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- DFs & Notas -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Demonstrações Financeiras e Notas Explicativas</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Apoio na elaboração e leitura de demonstrações financeiras e notas explicativas
+                com foco em transparência e governança.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Melhora da transparência</span>
+                <span class="pill"><span class="pill-dot"></span> Base para crédito ou investidor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARA QUEM É / BENEFÍCIOS -->
+    <section class="py-5" style="background:#f9fafb;">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-6">
+            <div class="mb-3">
+              <div class="section-label mb-1">Para quem é</div>
+              <h2 class="section-title">Perfil de empresas que mais se beneficiam</h2>
+            </div>
+            <p class="section-sub mb-3">
+              A consultoria estratégica é especialmente indicada para empresas que:
+            </p>
+            <ul style="color:#4b5563;font-size:0.95rem;">
+              <li>Estão em fase de crescimento e precisam organizar a casa;</li>
+              <li>Querem se preparar para buscar crédito, investidores ou novos sócios;</li>
+              <li>Sentem que trabalham muito, faturam bem, mas não enxergam claramente o resultado;</li>
+              <li>Não possuem orçamento estruturado, nem rotina de acompanhamento;</li>
+              <li>Precisam tirar projetos importantes do papel com método e disciplina.</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="mb-3">
+              <div class="section-label mb-1">Benefícios</div>
+              <h2 class="section-title">O que muda na prática</h2>
+            </div>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="feature-card">
+                  <h5 style="font-size:1rem;">Mais clareza e direção</h5>
+                  <p style="font-size:0.88rem;color:#6b7280;">
+                    Sócios e gestores passam a ter visão clara de onde querem chegar e do caminho.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card">
+                  <h5 style="font-size:1rem;">Melhor governança</h5>
+                  <p style="font-size:0.88rem;color:#6b7280;">
+                    Decisões mais estruturadas, com base em dados, processos e responsabilidades definidas.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card">
+                  <h5 style="font-size:1rem;">Preparação para captação</h5>
+                  <p style="font-size:0.88rem;color:#6b7280;">
+                    Negócio mais apresentável para bancos, programas de fomento ou investidores.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card">
+                  <h5 style="font-size:1rem;">Foco em resultado</h5>
+                  <p style="font-size:0.88rem;color:#6b7280;">
+                    Energia da equipe direcionada para o que realmente gera valor e sustentabilidade.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMATOS / PLANOS -->
+    <section class="py-5" id="planos">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Formatos</div>
+          <h2 class="section-title">Modelos de atuação em Consultoria Estratégica</h2>
+          <p class="section-sub">
+            A atuação pode ser por projeto com escopo definido ou em formato de acompanhamento
+            por um período, dependendo do momento da empresa.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <!-- Diagnóstico + Roteiro -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Projeto pontual</div>
+              <div class="pricing-note mb-2">
+                Ideal para quem precisa de um mapa claro do que precisa ser feito nos próximos meses.
+              </div>
+              <ul class="pricing-list">
+                <li>Entrevistas com sócios e gestão</li>
+                <li>Análise da situação atual (estratégia, processos e números)</li>
+                <li>Documento com diagnóstico e prioridades</li>
+                <li>Reunião de apresentação e alinhamento</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Solicitar diagnóstico estratégico
+              </button>
+            </div>
+          </div>
+
+          <!-- Implementação -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card featured">
+              <div class="pricing-badge mb-1">Mais contratado</div>
+              <div class="pricing-note mb-2">
+                Para empresas que querem apoio na construção e implementação dos pilares estratégicos.
+              </div>
+              <ul class="pricing-list">
+                <li>Definição ou revisão de planejamento estratégico</li>
+                <li>Estruturação de orçamento e controles</li>
+                <li>Modelagem de indicadores de performance</li>
+                <li>Acompanhamento de projetos e rituais de gestão</li>
+              </ul>
+              <button
+                class="btn btn-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Conversar sobre projeto de implementação
+              </button>
+            </div>
+          </div>
+
+          <!-- Acompanhamento -->
+          <div class="col-md-12 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Acompanhamento</div>
+              <div class="pricing-note mb-2">
+                Para sócios e diretores que desejam um apoio recorrente na tomada de decisão.
+              </div>
+              <ul class="pricing-list">
+                <li>Encontros periódicos (quinzenais ou mensais)</li>
+                <li>Análise dos números e da execução da estratégia</li>
+                <li>Apoio em decisões-chave (investimentos, expansão, ajustes)</li>
+                <li>Alinhamento entre sócios e áreas críticas</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Falar sobre mentoria estratégica
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-3" style="font-size:0.78rem;color:#9ca3af;">
+          Valores e formatos podem variar conforme porte, complexidade, número de unidades,
+          tempo de projeto e escopo de atuação.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA / CTA FINAL -->
+    <section class="pb-5">
+      <div class="container">
+        <div class="row g-3 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="steps h-100">
+              <div class="section-label mb-2">Como começamos</div>
+              <h3 class="section-title mb-2" style="font-size:1.4rem;">
+                Passos iniciais da consultoria
+              </h3>
+
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div>
+                  <strong>Entendimento do momento</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Conversa inicial para entender o estágio da empresa, desafios, urgências
+                    e objetivos de médio e longo prazo.
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div>
+                  <strong>Enquadramento do formato</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Sugerimos o modelo mais adequado (diagnóstico, projeto, mentoria ou combinação)
+                    com prazos e investimento estimado.
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div>
+                  <strong>Proposta e início dos trabalhos</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    A partir da aprovação, definimos agenda, entregas e principais rituais de acompanhamento.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="cta-final h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="section-label mb-2" style="color:#e5e7eb;">Próximo passo</div>
+                <h3 class="mb-2" style="font-size:1.45rem;font-weight:600;">
+                  Quer levar a gestão da sua empresa para outro nível?
+                </h3>
+                <p style="font-size:0.9rem;color:#e5e7eb;">
+                  Envie um e-mail para <strong>contato@idbriefing.com.br</strong> com uma breve
+                  descrição do seu negócio, faturamento aproximado, número de colaboradores e
+                  quais são hoje as suas maiores dúvidas estratégicas.
+                </p>
+                <p style="font-size:0.86rem;color:#e5e7eb;">
+                  A partir disso, retornamos com uma sugestão de abordagem e próximos passos
+                  para iniciarmos o trabalho.
+                </p>
+              </div>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <a href="contato.html"
+                  class="btn btn-light">
+                  Falar com ID Briefing
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos2">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6">
+            <div class="hero-badge mb-3">
+              <span class="dot"></span>
+              Assessoria em Finanças & Controladoria • ID Briefing
+            </div>
+
+            <h1 class="hero-title mb-3">
+              Finanças & Controladoria<br />
+              <span>Organização, clareza e resultados para sua empresa.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Estruturamos finanças, custos, controles e governança para empresas que precisam
+              entender seu negócio, aumentar margem, reduzir desperdícios e ganhar previsibilidade.
+            </p>
+
+            <a href="contato.html"
+              class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius: 999px;">
+              Solicitar diagnóstico financeiro
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="/img/Controladoria.png"
+                class="img-fluid rounded shadow"
+                alt="Finanças & Controladoria">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre o serviço</div>
+          <h2 class="section-title">Estruturação financeira completa</h2>
+          <p class="section-sub">
+            Atuamos como um braço financeiro da sua empresa, organizando números, processos,
+            rotinas e controles essenciais para tomada de decisão. Finanças e controladoria
+            deixam de ser uma “caixa preta” e passam a ser um motor estratégico do crescimento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="pb-5">
+      <div class="container">
+
+        <h2 class="section-title mb-3">Serviços incluídos</h2>
+        <p class="section-sub mb-4">Principais entregas e atividades:</p>
+
+        <div class="row g-3">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">💰</div>
+              <h5>Gestão e projeção de fluxo de caixa</h5>
+              <p>Organização financeira, previsões, entradas, saídas e análise de folga.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📦</div>
+              <h5>Controle de estoque</h5>
+              <p>Análise de giro, rupturas, excesso, inventário e impacto no capital de giro.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🚢</div>
+              <h5>Controle de processos de importação</h5>
+              <p>Apuração de custos, impostos, lead time e valor final do produto.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h5>Apuração e gestão de custos</h5>
+              <p>Custos fixos, variáveis, margem de contribuição, CMV e preço de venda.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🏛️</div>
+              <h5>Controle patrimonial</h5>
+              <p>Inventário, imobilizado, vida útil, depreciação e governança patrimonial.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📈</div>
+              <h5>Controles e rotinas financeiras</h5>
+              <p>Contas a pagar, receber, conciliações, calendários e processos estruturados.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-5" style="background:#f9fafb;">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Benefícios</div>
+          <h2 class="section-title">O que sua empresa ganha na prática</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Clareza e controle</h5>
+              <p>Você passa a saber exatamente onde está, onde perde dinheiro e onde ganhar mais.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Processos organizados</h5>
+              <p>Rotinas financeiras deixam de ser improviso e passam a ser profissionais.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Redução de perdas</h5>
+              <p>Menos desperdícios, menos erros e mais previsibilidade operacional.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Decisão estratégica</h5>
+              <p>Gestão passa a atuar com dados reais e análises sólidas, não “achismos”.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="section-title mb-3">Pronto para organizar suas finanças?</h2>
+        <p class="section-sub mb-4">
+          Envie uma mensagem com as informações da sua empresa e receba uma proposta customizada.
+        </p>
+
+        <a href="contato.html"
+          class="btn btn-dark px-4 py-2" style="border-radius: 999px;">
+          Solicitar consultoria em Finanças & Controladoria
+        </a>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos4">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 mb-5">
+            <div class="hero-badge mb-3">
+              <span class="dot"></span>
+              Consultoria Financeira • ID Briefing
+            </div>
+
+            <h1 class="hero-title mb-3">
+              Diagnóstico Financeiro + KPIs<br />
+              <span>Clareza profunda sobre a saúde do seu negócio.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Um estudo completo das finanças da empresa, com análise técnica das demonstrações,
+              KPIs estratégicos, mapa de riscos e recomendações práticas para melhorar resultado,
+              governança e tomada de decisão.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mb-2">
+              <a href="contato.html"
+                class="btn btn-warning fw-semibold px-4 py-2" style="border-radius:999px;">
+                Solicitar diagnóstico
+              </a>
+            </div>
+
+            <p style="font-size:0.85rem;color:#cbd5f5;">
+              Indicado para empresas que precisam entender se estão crescendo com rentabilidade,
+              equilíbrio financeiro e estrutura saudável de capital.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-card">
+              <h6 class="mb-2">Visão do diagnóstico</h6>
+              <p style="font-size:0.88rem;">
+                O diagnóstico financeiro vai além dos números soltos: conecta DRE, balanço e fluxo de caixa
+                com a realidade operacional e estratégica da empresa.
+              </p>
+
+              <div class="d-flex justify-content-between align-items-end my-2">
+                <div>
+                  <div style="font-size:0.78rem;color:#9ca3af;">Rentabilidade atual (exemplo)</div>
+                  <div class="hero-kpi">8,4% a.a.</div>
+                  <div style="font-size:0.78rem;color:#9ca3af;">Retorno sobre o capital investido</div>
+                </div>
+                <div class="text-end">
+                  <div style="font-size:0.78rem;color:#9ca3af;">Grau de alavancagem</div>
+                  <div style="font-size:0.92rem;">Moderado</div>
+                  <div style="font-size:0.78rem;color:#9ca3af;">Risco de liquidez controlado</div>
+                </div>
+              </div>
+
+              <div style="font-size:0.8rem;color:#9ca3af;" class="mb-1">Alguns pontos avaliados:</div>
+              <div>
+                <span class="hero-chip">Liquidez & ciclo financeiro</span>
+                <span class="hero-chip">Margens e estrutura de custos</span>
+                <span class="hero-chip">Endividamento e capacidade de pagamento</span>
+                <span class="hero-chip">Retorno (ROE, ROA, ROI)</span>
+                <span class="hero-chip">Ponto de equilíbrio e alavancagem operacional</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- O QUE É / O QUE INCLUI -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre o serviço</div>
+          <h2 class="section-title">O que é o Diagnóstico Financeiro + KPIs?</h2>
+          <p class="section-sub">
+            É uma consultoria pontual (ou por projeto) que analisa em profundidade a saúde financeira
+            da empresa, conecta números com a realidade do negócio e traduz tudo isso em KPIs claros
+            e recomendações práticas — sem firula, sem termos vazios.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Análise das demonstrações financeiras</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Leitura técnica de DRE, balanço patrimonial e fluxo de caixa, com explicações em linguagem
+                acessível para sócios e gestores não financeiros.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> DRE, BP e DFC</span>
+                <span class="pill"><span class="pill-dot"></span> Visão gerencial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📈</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">KPIs financeiros essenciais</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Cálculo e interpretação dos principais indicadores: liquidez, margens, retorno,
+                alavancagem e eficiência.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> ROE, ROA, ROI</span>
+                <span class="pill"><span class="pill-dot"></span> Margem e giro</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">💰</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Capital de giro e ciclo financeiro</h5>
+              <p style="font-size:0.88rem;color:#6b7280">
+                Avaliação do prazo médio de recebimento, pagamento e estoque, e o impacto disso
+                na necessidade de capital de giro.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Ciclo operacional</span>
+                <span class="pill"><span class="pill-dot"></span> NCG & folga</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">⚖️</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Estrutura de custos e ponto de equilíbrio</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Separação de custos fixos e variáveis, margem de contribuição e cálculo
+                do ponto de equilíbrio econômico.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Margem de contribuição</span>
+                <span class="pill"><span class="pill-dot"></span> Break-even</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🧭</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Mapa de riscos e oportunidades</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Identificação de fragilidades financeiras e de oportunidades para ganho de resultado,
+                com priorização do que deve ser atacado primeiro.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Riscos críticos</span>
+                <span class="pill"><span class="pill-dot"></span> Ações prioritárias</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📑</div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Relatório executivo e parecer</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Documento de 10 a 20 páginas com análise, KPIs, gráficos, textos explicativos
+                e recomendações organizadas em plano de ação.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Linguagem clara</span>
+                <span class="pill"><span class="pill-dot"></span> Foco em decisão</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS / FORMATOS -->
+    <section class="py-5" id="planos">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Formatos</div>
+          <h2 class="section-title">Formatos de diagnóstico financeiro</h2>
+          <p class="section-sub">
+            Você pode contratar um diagnóstico pontual, um acompanhamento por algumas semanas
+            ou incluir o diagnóstico em um projeto maior de governança e crescimento.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <!-- Pontual -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Pontual</div>
+              <div class="pricing-name mb-1">Diagnóstico Essencial</div>
+              <div class="pricing-price mb-1">a partir de R$ 1.490</div>
+              <div class="pricing-note mb-2">
+                Para empresas que querem uma visão clara e objetiva da situação financeira atual.
+              </div>
+              <ul class="pricing-list">
+                <li>Análise das principais demonstrações</li>
+                <li>Cálculo dos KPIs essenciais</li>
+                <li>Relatório executivo de até 10 páginas</li>
+                <li>Reunião de apresentação (online)</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Solicitar Diagnóstico Essencial
+              </button>
+            </div>
+          </div>
+
+          <!-- Executivo -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card featured">
+              <div class="pricing-badge mb-1">Mais contratado</div>
+              <div class="pricing-name mb-1">Diagnóstico Executivo</div>
+              <div class="pricing-price mb-1">de R$ 2.900 a R$ 5.900</div>
+              <div class="pricing-note mb-2">
+                Para quem busca profundidade, plano de ação estruturado e apoio à decisão.
+              </div>
+              <ul class="pricing-list">
+                <li>Análises detalhadas de rentabilidade, custos e capital de giro</li>
+                <li>KPIs personalizados por área ou unidade de negócio</li>
+                <li>Relatório de 15 a 20 páginas</li>
+                <li>Reunião de apresentação + sessão de alinhamento</li>
+              </ul>
+              <button
+                class="btn btn-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Contratar Diagnóstico Executivo
+              </button>
+            </div>
+          </div>
+
+          <!-- Projeto -->
+          <div class="col-md-12 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Projeto</div>
+              <div class="pricing-name mb-1">Diagnóstico + Implementação</div>
+              <div class="pricing-price mb-1">de R$ 7.500 a R$ 18.000</div>
+              <div class="pricing-note mb-2">
+                Para empresas que desejam, além do diagnóstico, apoio na execução das recomendações.
+              </div>
+              <ul class="pricing-list">
+                <li>Diagnóstico completo (Executivo)</li>
+                <li>Plano de ação detalhado por frente (caixa, custos, estoque, etc.)</li>
+                <li>Acompanhamento de implementação por período combinado</li>
+                <li>Revisão dos KPIs após as mudanças</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-2"
+                onclick="location.href='contato.html'">
+                Conversar sobre projeto completo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-3" style="font-size:0.78rem;color:#9ca3af;">
+          Valores e prazos podem variar conforme o porte, complexidade, quantidade de unidades
+          e disponibilidade de informações financeiras da empresa.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA / CTA FINAL -->
+    <section class="pb-5">
+      <div class="container">
+        <div class="row g-3 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="steps h-100">
+              <div class="section-label mb-2">Como funciona</div>
+              <h3 class="section-title mb-2" style="font-size:1.4rem;">
+                Etapas do Diagnóstico Financeiro
+              </h3>
+
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div>
+                  <strong>Coleta de informações</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Você envia as demonstrações financeiras, relatórios e informações complementares
+                    sobre operação, estrutura e objetivos da empresa.
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div>
+                  <strong>Análises técnicas e cálculo dos KPIs</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Realizamos a leitura dos números, calculamos os indicadores relevantes e cruzamos
+                    as informações com o contexto do negócio.
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div>
+                  <strong>Construção do relatório e mapa de riscos</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Estruturamos o relatório executivo, destacando pontos fortes, riscos, oportunidades
+                    e ações prioritárias.
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">4</div>
+                <div>
+                  <strong>Apresentação e discussão com a gestão</strong>
+                  <div style="font-size:0.86rem;color:#6b7280;">
+                    Apresentamos as conclusões em reunião, esclarecemos dúvidas e ajustamos o plano
+                    de ação de acordo com a realidade da empresa.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="cta-final h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="section-label mb-2" style="color:#e5e7eb;">Próximo passo</div>
+                <h3 class="mb-2" style="font-size:1.45rem;font-weight:600;">
+                  Quer saber, de forma madura e técnica, como a sua empresa está de verdade?
+                </h3>
+                <p style="font-size:0.9rem;color:#e5e7eb;">
+                  Envie um e-mail para <strong>contato@idbriefing.com.br</strong> com uma breve
+                  descrição do seu negócio, faturamento aproximado e principais dúvidas financeiras
+                  que você gostaria de responder com este diagnóstico.
+                </p>
+                <p style="font-size:0.86rem;color:#e5e7eb;">
+                  A partir disso, sugerimos o formato mais adequado (Essencial, Executivo ou Projeto),
+                  prazos e investimento estimado.
+                </p>
+              </div>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <a href="contato.html"
+                  class="btn btn-light">
+                  Solicitar diagnóstico
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos5">
+      <div class="container position-relative">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="hero-badge mb-3">
+              <span class="dot"></span>
+              <span>Business Intelligence • ID Briefing</span>
+            </div>
+
+            <h1 class="hero-title">
+              Dashboard Executivo (BI)<br />
+              <span class="highlight">Transforme dados em decisões inteligentes.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Conectamos dados financeiros, comerciais, operacionais e do agronegócio em um único
+              painel executivo para que você decida com clareza e velocidade.
+            </p>
+
+            <div class="hero-cta d-flex flex-wrap align-items-center gap-2 mb-3">
+              <a href="contato.html"
+                class="btn btn-primary">
+                Falar com um especialista
+              </a>
+            </div>
+
+            <p class="mb-0" style="font-size: 0.85rem; color:#cbd5f5;">
+              Power BI • Tableau • Looker • Qlik Sense • Excel • SQL
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-metric-card">
+              <h6 class="mb-2">Visão em tempo real</h6>
+              <p class="mb-1" style="font-size:0.88rem;">
+                Tenha em um único painel o que hoje está perdido em planilhas, e-mails e sistemas
+                desconectados.
+              </p>
+
+              <div class="d-flex align-items-end justify-content-between mb-3 mt-3">
+                <div>
+                  <div class="metric-value mb-0">+40%</div>
+                  <small style="font-size:0.75rem;color:#9ca3af;">
+                    mais velocidade na tomada de decisão<br />quando a diretoria passa a trabalhar com dashboards.
+                  </small>
+                </div>
+                <div class="text-end">
+                  <div style="font-size:0.78rem;color:#9ca3af;">Atualização automática</div>
+                  <div style="font-size:0.86rem;">Excel • SQL • ERPs</div>
+                </div>
+              </div>
+
+              <div class="mb-2" style="font-size:0.8rem;color:#9ca3af;">
+                Principais camadas atendidas:
+              </div>
+
+              <div class="d-flex flex-wrap">
+                <span class="hero-metric-chip">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 13L9 18L20 6" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Diretoria &amp; C-level
+                </span>
+                <span class="hero-metric-chip">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 13L9 18L20 6" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Controladoria &amp; Finanças
+                </span>
+                <span class="hero-metric-chip">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 13L9 18L20 6" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Agronegócio &amp; Operações
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O QUE VOCÊ RECEBE -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Serviço</div>
+          <h2 class="section-title">O que você recebe ao contratar o Dashboard Executivo (BI)</h2>
+          <p class="section-sub">
+            Do Excel ao banco de dados em nuvem, estruturamos tudo para você enxergar
+            o negócio com clareza: financeiro, comercial, operação, pessoas e agronegócio.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                📊
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Dashboard 100% personalizado</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Painel construído sob medida para a sua realidade: finanças, vendas, produção,
+                crédito, custos, RH ou agronegócio.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> DRE e Fluxo de Caixa</span>
+                <span class="pill"><span class="pill-dot"></span> KPIs por diretoria</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                🔗
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Conexão aos seus dados</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Integração com Excel, SQL, Supabase, Azure, Google Sheets e ERPs
+                (TOTVS, Omie, Protheus, Bling etc.) para eliminar retrabalho manual.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Dados em tempo (quase) real</span>
+                <span class="pill"><span class="pill-dot"></span> Menos risco de erro</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                📈
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">KPIs e relatórios essenciais</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Selecionamos os indicadores que realmente importam para a alta gestão:
+                liquidez, margem, alavancagem, inadimplência, produtividade e muito mais.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Visão executiva</span>
+                <span class="pill"><span class="pill-dot"></span> Drill down para detalhes</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                ⚙️
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Atualização automática</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Um fluxo automático de atualização a partir das bases de dados, sem necessidade
+                de “ficar alimentando planilha” todos os dias.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Menos tarefas operacionais</span>
+                <span class="pill"><span class="pill-dot"></span> Mais tempo para analisar</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                🧠
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Arquitetura de dados bem feita</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Modelagem de dados, tabelas e relacionamentos organizados para garantir
+                performance, consistência e escalabilidade do seu BI.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Base única de verdade</span>
+                <span class="pill"><span class="pill-dot"></span> Preparado para crescer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                🎓
+              </div>
+              <h5 class="mb-1" style="font-size:1.02rem;">Treinamento e suporte</h5>
+              <p style="font-size:0.88rem;color:#6b7280;">
+                Sua equipe aprende a navegar, interpretar e extrair valor real dos dashboards.
+                O painel fica vivo no dia a dia, não parado na gaveta.
+              </p>
+              <div>
+                <span class="pill"><span class="pill-dot"></span> Treinamento prático</span>
+                <span class="pill"><span class="pill-dot"></span> Materiais de apoio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="py-5" id="planos">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Planos e formatos</div>
+          <h2 class="section-title">Escolha o nível de profundidade ideal para o seu negócio</h2>
+          <p class="section-sub">
+            Do primeiro painel à arquitetura completa de BI, o ID Briefing adapta o projeto
+            à maturidade de dados e ao momento financeiro da sua empresa.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <!-- Essencial -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Essencial</div>
+              <div class="pricing-name mb-1">Plano Essencial</div>
+              <div class="pricing-price mb-1">a partir de R$ 890</div>
+              <div class="pricing-note mb-2">Ideal para pequenas empresas e primeiras experiências com BI.</div>
+              <ul class="pricing-list">
+                <li>1 dashboard executivo principal</li>
+                <li>Até 3 bases de dados (Excel, SQL, ERP)</li>
+                <li>KPIs essenciais para diretoria</li>
+                <li>Atualização automática básica</li>
+                <li>Entrega típica em até 72 horas*</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-3"
+                onclick="location.href='contato.html'">
+                Quero o Plano Essencial
+              </button>
+            </div>
+          </div>
+
+          <!-- Executivo -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card featured">
+              <div class="pricing-badge mb-1">Mais contratado</div>
+              <div class="pricing-name mb-1">Plano Executivo</div>
+              <div class="pricing-price mb-1">de R$ 1.990 a R$ 4.900</div>
+              <div class="pricing-note mb-2">Para CFOs, controllers e gestores que precisam de visão integrada.</div>
+              <ul class="pricing-list">
+                <li>Até 3 dashboards integrados (finanças, comercial, operação)</li>
+                <li>Modelagem de dados avançada</li>
+                <li>KPIs estratégicos de alta gestão</li>
+                <li>Automação de atualizações e rotinas</li>
+                <li>Treinamento rápido da equipe</li>
+              </ul>
+              <button
+                class="btn btn-dark w-100 mt-3"
+                onclick="location.href='contato.html'">
+                Quero o Plano Executivo
+              </button>
+            </div>
+          </div>
+
+          <!-- Premium -->
+          <div class="col-md-12 col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-badge mb-1">Arquitetura completa</div>
+              <div class="pricing-name mb-1">Plano Premium</div>
+              <div class="pricing-price mb-1">de R$ 6.500 a R$ 12.000</div>
+              <div class="pricing-note mb-2">Para empresas com grande volume de dados e visão de longo prazo.</div>
+              <ul class="pricing-list">
+                <li>Criação de banco de dados na nuvem (Supabase/Azure)</li>
+                <li>Dashboards ilimitados dentro do escopo acordado</li>
+                <li>Integração com múltiplos sistemas e APIs</li>
+                <li>Camadas de acesso por área e nível hierárquico</li>
+                <li>Acompanhamento próximo e suporte dedicado</li>
+              </ul>
+              <button
+                class="btn btn-outline-dark w-100 mt-3"
+                onclick="location.href='contato.html'">
+                Quero o Plano Premium
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-3" style="font-size:0.78rem;color:#9ca3af;">
+          *Prazos e valores podem variar conforme complexidade, volume de dados e integrações necessárias.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA / CTA FINAL -->
+    <section class="pb-5">
+      <div class="container">
+        <div class="row g-3 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="steps h-100">
+              <div class="section-label mb-2">Como funciona</div>
+              <h3 class="section-title mb-2" style="font-size:1.4rem;">
+                Em 3 passos, seu Dashboard Executivo pronto para uso
+              </h3>
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div>
+                  <div class="step-title">Entendimento do negócio</div>
+                  <div class="step-text">
+                    Conversamos sobre a sua realidade: quais decisões você precisa tomar,
+                    quais áreas são mais críticas e quais dados você já possui.
+                  </div>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div>
+                  <div class="step-title">Conexão e modelagem de dados</div>
+                  <div class="step-text">
+                    Conectamos as fontes (Excel, SQL, ERPs, APIs), tratamos as bases e montamos
+                    a estrutura de dados que ficará por trás do dashboard.
+                  </div>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div>
+                  <div class="step-title">Construção do dashboard e entrega</div>
+                  <div class="step-text">
+                    Desenhamos o painel com foco executivo, disponibilizamos o acesso e
+                    fazemos um walkthrough com você e sua equipe para garantir que todos
+                    saibam usar e extrair valor.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2" style="font-size:0.8rem;color:#6b7280;">
+                Ferramentas utilizadas: Power BI, Tableau, Looker, Qlik Sense, Excel, SQL
+                e bancos de dados em nuvem.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="cta-final h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="section-label mb-2" style="color:#e5e7eb;">Próximo passo</div>
+                <h3 class="mb-2" style="font-size:1.45rem;font-weight:600;">
+                  Quer ver um exemplo de Dashboard Executivo aplicado ao seu negócio?
+                </h3>
+                <p style="font-size:0.9rem;color:#e5e7eb;">
+                  Envie um e-mail para <strong>contato@idbriefing.com.br</strong> ou acesse
+                  <strong>www.idbriefing.com.br</strong> e conte em poucas linhas
+                  como funciona a sua operação.
+                </p>
+                <p style="font-size:0.86rem;color:#e5e7eb;">
+                  A partir disso, sugerimos o melhor plano, estimamos o prazo e mostramos
+                  como um painel de BI pode apoiar suas decisões financeiras, comerciais
+                  e estratégicas.
+                </p>
+              </div>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <a
+                 href="contato.html"
+                  class="btn btn-light">
+                  Enviar e-mail agora
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos6">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 mb-5">
+            <div class="hero-badge mb-3">
+              <span class="dot"></span>
+              Dashboard Agro • ID Briefing
+            </div>
+
+            <h1 class="hero-title mb-3">
+              Dashboard Agro<br>
+              <span>Gestão inteligente para fazendas, produtores e agroindústrias.</span>
+            </h1>
+
+            <p style="max-width: 35rem;">
+              Painéis completos para acompanhar custos, produção, rebanho, margens, estoque,
+              produtividade e ciclo financeiro em tempo real.  
+              Tudo integrado com Excel, SQL, ERPs e ferramentas de BI.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <a href="contato.html"
+                class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius:30px;">
+                Solicitar demonstração
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-card">
+              <h5 class="text-light">Exemplo de KPIs Agro</h5>
+              <ul style="font-size:0.9rem;">
+                <li>Custo por hectare / animal</li>
+                <li>Margem por cultura / lote / etapa</li>
+                <li>Índice de produtividade agrícola</li>
+                <li>Manejo, ganho de peso e marmoreio</li>
+                <li>Ciclo operacional e financeiro da fazenda</li>
+                <li>Preço médio × mercado (boi, soja, milho, leite)</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- O QUE INCLUI -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title mb-3">O que você recebe</h2>
+        <p class="text-secondary mb-4" style="max-width:36rem;">
+          Painéis prontos para transformar gestão agropecuária em inteligência de decisão,
+          do chão de fábrica à diretoria.
+        </p>
+
+        <div class="row g-3">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>🌱 Dashboard de Safra</h5>
+              <p>Acompanhamento de plantio, tratos, produtividade, custo por hectare e margem por cultura.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>🐄 Dashboard Pecuária</h5>
+              <p>Rebanho, ganho de peso, manejo, nutrição, custos, marmoreio, ciclo e rentabilidade.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>🏭 Dashboard Agroindústria</h5>
+              <p>Produção, perdas, rendimentos, custos industriais, performance e mix de produtos.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>📦 Estoques e insumos</h5>
+              <p>Níveis de insumos, consumo, giro, rupturas e programação de compras.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>💰 Financeiro Agro</h5>
+              <p>DRE gerencial, fluxo de caixa, margem por frente de produção e ciclo financeiro.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <h5>🧭 Gestão de propriedades</h5>
+              <p>Indicadores por talhão, lote, fazenda, unidade ou produtor parceiro.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="py-5" id="planos">
+      <div class="container">
+        <h2 class="section-title mb-3">Planos</h2>
+        <p class="text-secondary mb-4" style="max-width:36rem;">
+          De fazendas familiares a cooperativas e agroindústrias — temos um modelo sob medida.
+        </p>
+
+        <div class="row g-3">
+
+          <!-- Essencial -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card">
+              <h6 class="text-success">Essencial</h6>
+              <ul class="mt-3">
+                <li>Dashboard único (Safra ou Pecuária)</li>
+                <li>Até 3 bases (Excel/ERP)</li>
+                <li>KPI padrão Agro</li>
+              </ul>
+              <a href="contato.html" 
+                class="btn btn-outline-dark w-100">Contratar Essencial</a>
+            </div>
+          </div>
+
+          <!-- Executivo -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pricing-card featured">
+              <h6 class="text-success">Executivo (mais contratado)</h6>
+              <ul class="mt-3">
+                <li>2 a 4 dashboards Agro</li>
+                <li>Integração com SQL / Supabase</li>
+                <li>KPI avançados por frente produtiva</li>
+                <li>Conexão com Power BI / Tableau</li>
+              </ul>
+              <a href="contato.html" 
+                class="btn btn-dark w-100">Contratar Executivo</a>
+            </div>
+          </div>
+
+          <!-- Premium -->
+          <div class="col-md-12 col-lg-4">
+            <div class="pricing-card">
+              <h6 class="text-success">Premium</h6>
+              <ul class="mt-3">
+                <li>Arquitetura de dados Agro completa</li>
+                <li>Modelagem de BI por produtor, lote e talhão</li>
+                <li>Dashboards ilimitados</li>
+                <li>Treinamento + documentação</li>
+              </ul>
+              <a href="contato.html" 
+                class="btn btn-outline-dark w-100">Contratar Premium</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA / CTA -->
+    <section class="pb-5">
+      <div class="container">
+
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="step-box h-100">
+              <h3 class="mb-3">Como funciona</h3>
+              <p>✔ Você envia seus dados (Excel, ERP, SQL ou apontamentos de campo)</p>
+              <p>✔ Tratamos, modelamos e estruturamos as bases</p>
+              <p>✔ Construímos dashboards completos (Safra, Pecuária, Financeiro, Estoques)</p>
+              <p>✔ Conectamos com Power BI / Tableau / Looker</p>
+              <p>✔ Você passa a ver o Agro da sua empresa com clareza total</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="step-box h-100" style="background:#004b3b;color:#fff;">
+              <h3 class="mb-3">Quer ver um exemplo aplicado ao seu Agro?</h3>
+              <p>Envie uma mensagem para <strong>contato@idbriefing.com.br</strong>:</p>
+              <ul>
+                <li>Tipo de produção (soja, boi, leite, milho ...)</li>
+                <li>Quantidade de fazendas/unidades</li>
+                <li>Principais desafios de gestão</li>
+              </ul>
+              <a href="contato.html" class="btn btn-light mt-2">
+                Solicitar demonstração
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos7">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 mb-5">
+            <h1 class="hero-title mb-3">
+              Planilhas Profissionais<br>
+              <span>Download imediato.</span>
+            </h1>
+
+            <p style="max-width: 35rem; font-size: 1rem;">
+              Planilhas criadas para analistas, empresários, produtores e gestores.
+              Todas com fórmulas auditáveis, dashboards integrados e estrutura profissional.  
+              Prontas para usar. Sem mensalidade. Acesso imediato.
+            </p>
+
+            <a href="contato.html" class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius:30px;">
+              Fale conosco para adquirir todas as planilhas
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="/img/planilha.png"
+                class="img-fluid rounded shadow"
+                alt="Planilhas - ID Briefing">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="py-5" id="produtos">
+      <div class="container">
+        <h2 class="mb-3">Planilhas disponíveis</h2>
+        <p class="text-secondary" style="max-width: 36rem;">
+          Cada planilha foi construída com métodos financeiros profissionais e fórmulas avançadas.
+        </p>
+
+        <div class="row g-4 mt-3">
+
+          <!-- Produto 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>📊 Avaliação de Crédito Empresarial</h5>
+              <p>
+                Planilha de cálculo de score, risco, endividamento, liquidez, margem e recomendação.
+              </p>
+            </div>
+          </div>
+
+          <!-- Produto 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>👤 Crédito Pessoa Física (Score + Renda)</h5>
+              <p>
+                Modelo automático com score, análise de renda, limites recomendados e risco.
+              </p>
+            </div>
+          </div>
+
+          <!-- Produto 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>💰 Fluxo de Caixa + Dashboard</h5>
+              <p>
+                Controle mensal completo, categorias, projeções e dashboard integrado.
+              </p>
+            </div>
+          </div>
+
+          <!-- Produto 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>🏭 Custo de Produção (Agro)</h5>
+              <p>
+                Modelo para pecuária, leite, grãos ou hortifrúti.  
+                Calcula custo por hectare, lote ou animal.
+            </div>
+          </div>
+
+          <!-- Produto 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>📈 KPI Financeiro Profissional</h5>
+              <p>
+                Planilha que calcula dezenas de indicadores: ROE, ROA, liquidez, margem, ciclo, EBITDA e mais.
+              </p>
+            </div>
+          </div>
+
+          <!-- Produto 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+              <h5>🧮 Valuation</h5>
+              <p>
+                Planilha de simulação de apuração do valor de empresa com base em cenários econômicos e financeiros.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-3">Benefícios das planilhas ID Briefing</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5>✔ Fórmulas auditáveis</h5>
+            <p>Tudo estruturado para rastrear cálculos e garantir confiabilidade total.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>✔ Layout profissional</h5>
+            <p>Design limpo, intuitivo e pronto para apresentação.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>✔ Acesso imediato</h5>
+            <p>Baixe na hora após a compra — sem mensalidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5" style="background:#004b3b;color:#fff;">
+      <div class="container text-center">
+        <h3 class="mb-3">Quer uma planilha personalizada?</h3>
+        <p class="mb-4">Criamos modelos sob medida para empresas, produtores e consultorias.</p>
+
+        <a href="contato.html" class="btn btn-light px-4 py-2" style="border-radius:30px;">
+          Solicitar personalização
+        </a>
+      </div>
+    </section>
+
+    
+    <!-- HERO -->
+    <section class="hero" id="servicos9">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6">
+            <div class="hero-badge mb-3">Assessoria Jurídica • ID Briefing</div>
+
+            <h1 class="hero-title mb-3">
+              Assessoria Jurídica<br>
+              <span>Atuação especializada, humana e estratégica.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Atendimento personalizado e profissional em direito civil e previdenciário.
+              Atuamos com clareza, seriedade e foco total na solução do problema jurídico do cliente.
+            </p>
+
+            <a href="contato.html"
+              class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius:999px;">
+              Solicitar atendimento
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="/img/juridico.png"
+                class="img-fluid rounded shadow"
+                alt="Assessoria Jurídica - ID Briefing">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre o serviço</div>
+          <h2 class="section-title">Atuação jurídica com excelência e compromisso</h2>
+          <p class="section-sub">
+            A Assessoria Jurídica ID Briefing atua nas áreas civil e previdenciária,
+            oferecendo suporte completo com foco em segurança jurídica, estratégia e defesa técnica.
+            Cada caso é analisado de forma profunda, humana e sigilosa, garantindo atendimento ético
+            e soluções eficientes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS DE ATUAÇÃO -->
+    <section class="pb-5">
+      <div class="container">
+        <h2 class="section-title mb-3">Áreas de Atuação</h2>
+        <p class="section-sub mb-4">Principais frentes jurídicas em que atuamos:</p>
+
+        <div class="row g-3">
+
+          <!-- Civil -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">⚖️</div>
+              <h5>Direito Civil</h5>
+              <p>Contratos, cobranças, responsabilidade civil, acordos, ações indenizatórias e litígios diversos.</p>
+            </div>
+          </div>
+
+          <!-- Previdenciário -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📄</div>
+              <h5>Direito Previdenciário</h5>
+              <p>Aposentadorias, revisões, pensões, benefícios por incapacidade e defesas administrativas.</p>
+            </div>
+          </div>
+
+          <!-- Consultoria Jurídica Contínua -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🧩</div>
+              <h5>Consultoria Jurídica Contínua</h5>
+              <p>Suporte jurídico frequente para empresas, profissionais e famílias.</p>
+            </div>
+          </div>
+
+          <!-- Revisões e Pareceres -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📝</div>
+              <h5>Revisões e Pareceres</h5>
+              <p>Análise técnica, revisão de documentos, contratos e pareceres detalhados.</p>
+            </div>
+          </div>
+
+          <!-- Ações Judiciais -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">📚</div>
+              <h5>Ações Judiciais</h5>
+              <p>Propositura e acompanhamento processual completo no civil e previdenciário.</p>
+            </div>
+          </div>
+
+          <!-- Mediação & Acordos -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🤝</div>
+              <h5>Mediação & Acordos</h5>
+              <p>Negociação estratégica para soluções rápidas, econômicas e menos desgastantes.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-5" style="background:#f9fafb;">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Benefícios</div>
+          <h2 class="section-title">Por que escolher a nossa assessoria?</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Atendimento humano</h5>
+              <p>Escuta ativa, respeito e empatia do início ao fim.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Defesa técnica forte</h5>
+              <p>Argumentação jurídica estruturada, embasada e estratégica.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Transparência total</h5>
+              <p>Informações claras, atualizações contínuas e comunicação direta.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Rapidez e eficácia</h5>
+              <p>Foco em soluções objetivas, evitando desgastes desnecessários.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="section-title mb-3">Precisa de orientação jurídica?</h2>
+        <p class="section-sub mb-4">Entre em contato e receba uma análise inicial do seu caso.</p>
+
+        <a href="contato.html"
+          class="btn btn-dark px-4 py-2" style="border-radius:999px;">
+          Solicitar atendimento
+        </a>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos10">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6">
+            <div class="hero-badge mb-3">Educação & Treinamentos • ID Briefing</div>
+
+            <h1 class="hero-title mb-3">
+              Educação & Treinamentos<br>
+              <span>Desenvolvimento profissional para equipes e líderes.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Treinamentos corporativos, palestras motivacionais, workshops, educação financeira
+              e formações técnicas (Power BI, Excel, Python, SQL). Programas sob medida para
+              impulsionar habilidades, resultados e cultura organizacional.
+            </p>
+
+            <a href="contato.html"
+              class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius:999px;">
+              Solicitar proposta
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="/img/Treinamento A.png"
+                class="img-fluid rounded shadow"
+                alt="Educação e Treinamentos - ID Briefing">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre o serviço</div>
+          <h2 class="section-title">Capacitação que transforma equipes e resultados</h2>
+          <p class="section-sub">
+            Unimos educação corporativa, inteligência financeira e treinamentos técnicos
+            para desenvolver profissionais preparados para os desafios atuais. Cada programa
+            é personalizado conforme a necessidade da empresa, setor e nível da equipe.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="pb-5">
+      <div class="container">
+        <h2 class="section-title mb-3">Modalidades de Treinamento</h2>
+        <p class="section-sub mb-4">Quatro pilares que se complementam para formar profissionais completos:</p>
+
+        <div class="row g-3">
+
+          <!-- Treinamentos Corporativos -->
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <div class="feature-icon">🏢</div>
+              <h5>Treinamentos Corporativos</h5>
+              <p>Workshops sob medida para equipes, liderança e áreas estratégicas.</p>
+            </div>
+          </div>
+
+          <!-- Educação Financeira -->
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <div class="feature-icon">💰</div>
+              <h5>Educação Financeira</h5>
+              <p>Programas para colaboradores, famílias, empreendedores e jovens.</p>
+            </div>
+          </div>
+
+          <!-- Cursos Técnicos -->
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <div class="feature-icon">💻</div>
+              <h5>Treinamentos Técnicos</h5>
+              <p>Power BI, Excel, SQL, Python, estatística, análise de dados e automações.</p>
+            </div>
+          </div>
+
+          <!-- Soft Skills & Competências Humanas -->
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <div class="feature-icon">🎯</div>
+              <h5>Soft Skills & Competências Humanas</h5>
+              <p>Comunicação, trabalho em equipe, negociação, oratória, resolução de problemas, inteligência emocional.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-5" style="background:#f9fafb;">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Benefícios</div>
+          <h2 class="section-title">O que sua empresa ganha</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Profissionais mais preparados</h5>
+              <p>Equipes que dominam finanças, dados, tecnologia e boas práticas.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Cultura de alta performance</h5>
+              <p>Time engajado, motivado e com visão clara de resultados.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Mais produtividade</h5>
+              <p>Menos retrabalho, menos erros, mais eficiência e autonomia.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Decisões melhores</h5>
+              <p>Profissionais capazes de interpretar dados e agir com inteligência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="section-title mb-3">Preparar pessoas é acelerar resultados</h2>
+        <p class="section-sub mb-4">Entre em contato e receba uma proposta personalizada para sua empresa.</p>
+
+        <a href="contato.html"
+          class="btn btn-dark px-4 py-2" style="border-radius:999px;">
+          Solicitar proposta
+        </a>
+      </div>
+    </section>
+
+
+    <!-- HERO -->
+    <section class="hero" id="servicos11">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6">
+            <div class="hero-badge mb-3">Palestras Motivacionais • ID Briefing</div>
+
+            <h1 class="hero-title mb-3">
+              Palestras Motivacionais<br>
+              <span>Inspiração, propósito e fortalecimento de valores.</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Conteúdos transformadores que unem propósito, liderança, visão de futuro,
+              motivação e desenvolvimento humano.  
+              Ideal para equipes, empresas, instituições e eventos que buscam impacto real.
+            </p>
+
+            <a href="contato.html"
+              class="btn btn-warning px-4 py-2 fw-semibold" style="border-radius:999px;">
+              Solicitar palestra
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="/img/Palestra.png"
+                class="img-fluid rounded shadow"
+                alt="Palestras Motivacionais - ID Briefing">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Sobre o serviço</div>
+          <h2 class="section-title">Palestras que inspiram, transformam e conectam</h2>
+          <p class="section-sub">
+            Nossas palestras são estruturadas para promover reflexão, motivação e alinhamento
+            com os valores humanos. Cada apresentação é adaptada ao público e ao tema central
+            do evento, trazendo profundidade, clareza e energia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEMAS -->
+    <section class="pb-5">
+      <div class="container">
+        <h2 class="section-title mb-3">Temas das Palestras</h2>
+        <p class="section-sub mb-4">Conteúdos que unem propósito, motivação, liderança e valores:</p>
+
+        <div class="row g-3">
+
+          <!-- Inspiração -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">✨</div>
+              <h5>Inspiração & Motivação</h5>
+              <p>Histórias reais, reflexões profundas e mensagens transformadoras.</p>
+            </div>
+          </div>
+
+          <!-- Propósito -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🎯</div>
+              <h5>Propósito & Sentido de Vida</h5>
+              <p>Como alinhar carreira, valores, vida pessoal e objetivos maiores.</p>
+            </div>
+          </div>
+
+          <!-- Liderança -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🧭</div>
+              <h5>Liderança na Prática</h5>
+              <p>Comportamentos, mentalidades e atitudes que constroem líderes fortes.</p>
+            </div>
+          </div>
+
+          <!-- PFFV -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">⭐</div>
+              <h5>PFCI — Programa de Formação e Construção da Identidade</h5>
+              <p>Formando identidades, fortalecendo valores e construindo culturas sólidas.</p>
+            </div>
+          </div>
+
+          <!-- Desenvolvimento Humano -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🌱</div>
+              <h5>Desenvolvimento Humano</h5>
+              <p>Autoconhecimento, inteligência emocional e construção de hábitos positivos.</p>
+            </div>
+          </div>
+
+          <!-- Resiliência e superação -->
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">🔥</div>
+              <h5>Resiliência & Superação</h5>
+              <p>Como enfrentar desafios, crises e dificuldades com força mental e disciplina.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-5" style="background:#f9fafb;">
+      <div class="container">
+        <div class="mb-4">
+          <div class="section-label mb-1">Benefícios</div>
+          <h2 class="section-title">Impactos esperados da palestra</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Time mais engajado</h5>
+              <p>Participantes inspirados e conectados com um propósito maior.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Ambiente positivo</h5>
+              <p>Melhora no clima organizacional e no espírito de equipe.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Alinhamento de valores</h5>
+              <p>Conexão entre cultura da empresa e desenvolvimento humano.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+              <h5>Aumento da produtividade</h5>
+              <p>Pessoas mais motivadas produzem mais e com melhor qualidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="section-title mb-3">Quer levar essa palestra para seu evento?</h2>
+        <p class="section-sub mb-4">Entre em contato e solicite uma proposta personalizada.</p>
+
+        <a href="contato.html"
+          class="btn btn-dark px-4 py-2" style="border-radius:999px;">
+          Solicitar palestra
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Seção Microsoft Excel -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">YouTube</h2>
+      <p>
+        No YouTube disponibilizamos uma série introdutória, porém bem ampla, de treinamento de como usar o Power Query no Microsoft Excel para desenvolver dashboards, gráficos e tabelas automáticas e integradas a diversas bases de dados como SQL Server, Windows, Excel, TXT, PDF, Azure e outros e bem como outras ferramentas, tais como Google Forms, Alteryx e Power BI.
+      </p>
+      <p>
+        Além disso, as técnicas apresentadas são quase todas similares às utilizadas no Power BI para manipulação e transformação de dados em informação e inteligência.
+      </p>
+
+      <div class="text-center my-3">
+        <a href="https://www.youtube.com/@id.briefing" target="_blank" class="btn btn-primary">🎥 Acesse nosso canal no YouTube</a>
+      </div>
+    </section>
+
+  <!-- CTA FINAL / CONTATO -->
+  <section class="py-5" id="contato">
+    <div class="container">
+      <div class="cta-final">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg-7">
+            <h3 class="mb-2" style="font-size:1.7rem;font-weight:600;">
+              Quer conversar sobre algum projeto ou necessidade específica?
+            </h3>
+            <p style="font-size:0.92rem;color:#e5e7eb;">
+              Envie um e-mail com um resumo do seu contexto (empresa, segmento, principais desafios)
+              e qual linha de atuação você enxerga mais aderente:
+              finanças, BI, agro, treinamentos, assessoria jurídica ou combinação de várias.
+            </p>
+            <p style="font-size:0.9rem;">
+              <strong>E-mail:</strong> contato@idbriefing.com.br<br/>
+              <strong>Site:</strong> www.idbriefing.com.br
+            </p>
+          </div>
+          <div class="col-lg-5 text-lg-end text-start">
+            <a href="contato.html"
+              class="btn btn-light px-4 py-2 mb-2" style="border-radius:999px;">
+              Fale conosco
+            </a>
+            <p style="font-size:0.8rem;color:#e5e7eb;margin:0;">
+              Respondemos com proposta ou próximo passo em até alguns dias úteis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Links Úteis -->
+  <section class="container my-5 text-center">
+    <h4 class="mb-4">Acesse também</h4>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+
+      <a href="https://www.linkedin.com/company/idbriefing/" target="_blank" class="btn btn-outline-primary">
+        <i class="bi bi-linkedin me-2"></i> LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/id.briefing/profilecard/?igsh=MW1laGwyMmRkb3YyYQ==" target="_blank" class="btn btn-outline-danger">
+        <i class="bi bi-instagram me-2"></i> Instagram
+      </a>
+
+      <a href="https://www.youtube.com/@id.briefing" target="_blank" class="btn btn-outline-dark">
+        <i class="bi bi-youtube me-2"></i> YouTube
+      </a>
+
+      <a href="ztermos.html" target="_blank" class="btn btn-outline-secondary">
+        <i class="bi bi-file-earmark-text me-2"></i> Termos de Uso
+      </a>
+
+      <a href="zpolitica.html" target="_blank" class="btn btn-outline-secondary">
+        <i class="bi bi-shield-lock me-2"></i> Política de Privacidade
+      </a>
+
+      <a href="https://sites.google.com/view/cunhanotes/" target="_blank" class="btn btn-outline-success">
+        <i class="bi bi-building-lock me-2"></i> Intranet
+      </a>
+
+      <a href="https://sites.google.com/view/idbriefing-e-learning/e-learning" target="_blank" class="btn btn-outline-success">
+        <i class="bi bi-people me-2"></i> E-Learning
+      </a>
+
+      <a href="https://sites.google.com/view/idbriefing-empresa-demo/in%C3%ADcio" target="_blank" class="btn btn-primary">
+        <i class="bi bi-speedometer2 me-2"></i> Painel View
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center p-4">
+    <small>
+      <strong>Declaração de exoneração de responsabilidade:</strong><br>
+      O conteúdo fornecido por ID Briefing não inclui aconselhamento financeiro, orientação ou recomendações para tomar ou não tomar quaisquer decisões de gestão. 
+      O conteúdo fornecido é impessoal e não se adapta a parceiros, clientes ou empresas específicas. 
+      Recomenda-se que procure aconselhamento profissional antes de tomar decisões. 
+      Os resultados não são garantidos e podem variar de pessoa para pessoa e de empresa para empresa. 
+      Existem riscos inerentes em decisões empresariais e pessoais, incluindo perda de investimentos. 
+      O desempenho passado não é indicativo de resultados futuros.
+    </small>
+   <p>&copy; 2025 ID Briefing. Todos os direitos reservados.</p>
+   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
